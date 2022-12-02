@@ -1,0 +1,127 @@
+@font-face {
+    font-family: robotoR;
+
+    src: url(./fonts/roboto/Roboto-Regular.ttf);
+}
+@font-face {
+    font-family: robotoBB;
+    
+    src: url(./fonts/roboto/Roboto-Bold.ttf);
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url("./images/bg1.jpg");
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: auto;
+
+    
+    font-family: robotoR;
+   
+}
+
+.myLogo img{
+    display: block;
+    width: 50px;
+    height: auto;
+}
+.myLogo{
+    width: 50px;
+   border: 2px solid white;
+    overflow: hidden;
+    
+    border-radius: 50%;
+    margin-bottom:7 0px;
+}
+.container{
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: rgba(0, 0, 0, 0.379);
+    height: 100vh;
+    width: auto;
+    
+}
+.randomColors{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: green;
+    padding: 10px 8px 10px 8px;
+    border: 1px solid white;
+    outline: none;
+    color: white;
+    font-size: x-large;
+    border-radius: 5px;
+}
+.randomColors:hover{
+    cursor: pointer;
+    background-color: rgba(0, 128, 0, 0.463); ;
+}
+
+.btn111{
+    
+    display: flex;
+    justify-content: center;
+}
+.top{
+    background-color: rgba(6, 6, 6, 0.77);
+    text-align: center;
+    width: 60vw;
+    border-radius: 10px;
+    margin: 0 auto;
+    padding: 20px 5px 20px 5px;
+    margin-bottom: 30px;
+}
+
+h1{
+    font-size: xx-large;
+    color: rgb(255, 255, 255);
+    font-family: robotoBB;
+}
+h2{
+    color: rgb(255, 255, 255);
+}
+h3{
+    color: rgb(255, 255, 255);
+}
+.color_box{
+    display: grid;
+    margin: 0 auto;
+    grid-template-columns: repeat(3,auto);
+    width: 50vw;
+    border: 1px solid rgb(32, 31, 31);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.boxes{
+    max-width: 20vw;
+    height: 60px;
+    
+}
+.boxes:hover{
+    cursor: pointer;
+    color: yellow;
+}
+.boxNum{
+    text-align: center;
+    font-size:x-large
+}
+
+@media (min-width:900px) {
+    .boxes{
+        max-width: 20vw;
+        height: 100px;
+        
+    }
+    .myLogo img{
+        display: block;
+        width: 100px;
+        height: auto;
+    }
+    .myLogo{
+        width: 100px;
+      
+    }
+}
