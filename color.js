@@ -82,10 +82,7 @@ let setColorBoxes = () => {
       if (b0) {
       
         reset += 1;
-        if (reset >= 4) {
-          alert("Your fault, the earth is cursed");
-          location.reload();
-        }
+
         if (x.textContent == computerChoosenValue) {
           x.style.outline = "3px solid green";
           x.style.outlineOffset = "-4px";
@@ -94,13 +91,14 @@ let setColorBoxes = () => {
         } else {
           x.style.outline = "3px solid red";
           x.style.outlineOffset = "-4px";
+          if (reset > 2) {
+            alert("Your fault, the earth is cursed");
+            location.reload();
+          }
         }
       } else if (b1) {
         reset += 1;
-        if (reset >= 4) {
-          alert("Your fault, the earth is cursed");
-          location.reload();
-        }
+   
         if (x.textContent == computerChoosenValue) {
           x.style.outline = "3px solid green";
           x.style.outlineOffset = "-4px";
@@ -109,13 +107,14 @@ let setColorBoxes = () => {
         } else {
           x.style.outline = "3px solid red";
           x.style.outlineOffset = "-4px";
+          if (reset > 2) {
+            alert("Your fault, the earth is cursed");
+            location.reload();
+          }
         }
       } else if (b2) {
         reset += 1;
-        if (reset >= 4) {
-          alert("Your fault, the earth is cursed");
-          location.reload();
-        }
+     
         if (x.textContent == computerChoosenValue) {
           x.style.outline = "3px solid green";
           x.style.outlineOffset = "-4px";
@@ -124,13 +123,14 @@ let setColorBoxes = () => {
         } else {
           x.style.outline = "3px solid red";
           x.style.outlineOffset = "-4px";
+          if (reset > 2) {
+            alert("Your fault, the earth is cursed");
+            location.reload();
+          }
         }
       } else if (b3) {
         reset += 1;
-        if (reset >= 4) {
-          alert("Your fault, the earth is cursed");
-          location.reload();
-        }
+
         if (x.textContent == computerChoosenValue) {
           x.style.outline = "3px solid green";
           x.style.outlineOffset = "-4px";
@@ -139,13 +139,14 @@ let setColorBoxes = () => {
         } else {
           x.style.outline = "3px solid red";
           x.style.outlineOffset = "-4px";
+          if (reset > 2) {
+            alert("Your fault, the earth is cursed");
+            location.reload();
+          }
         }
       } else if (b4) {
         reset += 1;
-        if (reset >= 4) {
-          alert("Your fault, the earth is cursed");
-          location.reload();
-        }
+
         if (x.textContent == computerChoosenValue) {
           x.style.outline = "3px solid green";
           x.style.outlineOffset = "-4px";
@@ -154,13 +155,14 @@ let setColorBoxes = () => {
         } else {
           x.style.outline = "3px solid red";
           x.style.outlineOffset = "-4px";
+          if (reset > 2) {
+            alert("Your fault, the earth is cursed");
+            location.reload();
+          }
         }
       } else if (b5) {
         reset += 1;
-        if (reset >= 4) {
-          alert("Your fault, the earth is cursed");
-          location.reload();
-        }
+
         if (x.textContent == computerChoosenValue) {
           x.style.outline = "3px solid green";
           x.style.outlineOffset = "-4px";
@@ -169,13 +171,14 @@ let setColorBoxes = () => {
         } else {
           x.style.outline = "3px solid red";
           x.style.outlineOffset = "-4px";
+          if (reset > 2) {
+            alert("Your fault, the earth is cursed");
+            location.reload();
+          }
         }
       } else if (b6) {
         reset += 1;
-        if (reset >= 4) {
-          alert("Your fault, the earth is cursed");
-          location.reload();
-        }
+
         if (x.textContent == computerChoosenValue) {
           x.style.outline = "3px solid green";
           x.style.outlineOffset = "-4px";
@@ -184,14 +187,14 @@ let setColorBoxes = () => {
         } else {
           x.style.outline = "3px solid red";
           x.style.outlineOffset = "-4px";
+          if (reset > 2) {
+            alert("Your fault, the earth is cursed");
+            location.reload();
+          }
         }
       } else if (b7) {
         reset += 1;
 
-        if (reset >= 4) {
-          alert("Your fault, the earth is cursed");
-          location.reload();
-        }
         if (x.textContent == computerChoosenValue) {
           x.style.outline = "3px solid green";
           x.style.outlineOffset = "-4px";
@@ -200,43 +203,14 @@ let setColorBoxes = () => {
         } else {
           x.style.outline = "3px solid red";
           x.style.outlineOffset = "-4px";
+          
+        if (reset > 2) {
+          alert("Your fault, the earth is cursed");
+          location.reload();
+        }
         }
       } else if (b8) {
         reset += 1;
-        if (reset >= 4) {
-          alert("Your fault, the earth is cursed");
-          location.reload();
-        }
-        if (x.textContent == computerChoosenValue) {
-          x.style.outline = "3px solid green";
-          x.style.outlineOffset = "-4px";
-          alert("congratulations, You saved the earth");
-          location.reload();
-        } else {
-          x.style.outline = "3px solid red";
-          x.style.outlineOffset = "-4px";
-        }
-      } else if (b9) {
-        reset += 1;
-        if (reset >= 4) {
-          alert("Your fault, the earth is cursed");
-          location.reload();
-        }
-        if (x.textContent == computerChoosenValue) {
-          x.style.outline = "3px solid green";
-          x.style.outlineOffset = "-4px";
-          alert("congratulations, You saved the earth");
-          location.reload();
-        } else {
-          x.style.outline = "3px solid red";
-          x.style.outlineOffset = "-4px";
-        }
-      } else if (b10) {
-        reset += 1;
-        if (reset >= 4) {
-          alert("Your fault, the earth is cursed");
-          location.reload();
-        }
 
         if (x.textContent == computerChoosenValue) {
           x.style.outline = "3px solid green";
@@ -246,13 +220,14 @@ let setColorBoxes = () => {
         } else {
           x.style.outline = "3px solid red";
           x.style.outlineOffset = "-4px";
+          if (reset > 2) {
+            alert("Your fault, the earth is cursed");
+            location.reload();
+          }
         }
-      } else if (b11) {
+      } else if (b9) {
         reset += 1;
-        if (reset >= 4) {
-          alert("Your fault, the earth is cursed");
-          location.reload();
-        }
+  
         if (x.textContent == computerChoosenValue) {
           x.style.outline = "3px solid green";
           x.style.outlineOffset = "-4px";
@@ -261,6 +236,43 @@ let setColorBoxes = () => {
         } else {
           x.style.outline = "3px solid red";
           x.style.outlineOffset = "-4px";
+          if (reset > 2) {
+            alert("Your fault, the earth is cursed");
+            location.reload();
+          }
+        }
+      } else if (b10) {
+        reset += 1;
+  
+
+        if (x.textContent == computerChoosenValue) {
+          x.style.outline = "3px solid green";
+          x.style.outlineOffset = "-4px";
+          alert("congratulations, You saved the earth");
+          location.reload();
+        } else {
+          x.style.outline = "3px solid red";
+          x.style.outlineOffset = "-4px";
+          if (reset > 2) {
+            alert("Your fault, the earth is cursed");
+            location.reload();
+          }
+        }
+      } else if (b11) {
+        reset += 1;
+  
+        if (x.textContent == computerChoosenValue) {
+          x.style.outline = "3px solid green";
+          x.style.outlineOffset = "-4px";
+          alert("congratulations, You saved the earth");
+          location.reload();
+        } else {
+          x.style.outline = "3px solid red";
+          x.style.outlineOffset = "-4px";
+          if (reset > 2) {
+            alert("Your fault, the earth is cursed");
+            location.reload();
+          }
         }
       }
     });
